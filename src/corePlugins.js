@@ -71,6 +71,9 @@ import transformOrigin from './plugins/transformOrigin'
 import scale from './plugins/scale'
 import rotate from './plugins/rotate'
 import translate from './plugins/translate'
+import transitionProperty from './plugins/transitionProperty'
+import transitionTimingFunction from './plugins/transitionTimingFunction'
+import transitionDuration from './plugins/transitionDuration'
 
 import configurePlugins from './util/configurePlugins'
 
@@ -149,5 +152,8 @@ export default function({ corePlugins: corePluginConfig }) {
     scale,
     rotate,
     translate,
+    transitionProperty,
+    transitionTimingFunction,
+    transitionDuration,
   })
 }
